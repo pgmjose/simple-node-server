@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Forms 2</title>
+    </head>
+    <body>
+        <form>
+        <h2>Order Form</h2>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <label> Customer name: <input type="customer name" name="Customer name" required></label> <br>
+            <br>
+            <label> Mobile number: <input type="mobile number" name="Mobile number" required></label> <br>
+            <br>
+            <label> E-mail address: <input type="email" name="Email address" required></label> <br>
+            <br>
+        
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pizza Options</legend>
+            <label>
+            Flavor:
+            <select name="Flavor">
+            <option value="Hawaiian">Hawaiian</option>
+            <option value="Double Cheese">Double Cheese</option>
+            <option value="Margherita">Margherita</option>
+            <option value="Barbecue Bacon Cheeseburger">Barbecue Bacon Cheeseburger</option>
+            <option value="Pepperoni and Cheese">Pepperoni and Cheese</option>
+            </select>
+            </label>
+            
+            <br>
+            <br>
+            
+            Size:
+            <label><input type="radio" name="status" value="small"> Small </label>
+            <label><input type="radio" name="status" value="medium"> Medium </label>
+            <label><input type="radio" name="status" value="large"> Large </label>
+            
+            <br>
+            <br>
+            
+              Extra Toppings:
+            <label><input type="checkbox" name="subject" value="bacon" > Bacon </label>
+            <label><input type="checkbox" name="subject" value="cheese" > Cheese </label>
+            <label><input type="checkbox" name="subject" value="onion" > Onion </label>
+            <label><input type="checkbox" name="subject" value="mushroom" > Mushroom </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Delivery Details</legend>
+            <label>
+                <label>Delivery date: <input type="date" name="delivery date" required></label> <br>
+                <label>Preferred delivery time: <input type="time" name="delivery date" required></label> <br>
+                <label>Delivery address: <br><textarea rows="10" cols="50" name="delivery address" required></textarea></label>
+            </label>
+        </fieldset>
+        
+        <br>
+        <br>
+        
+        <button type="reset">Reset</button>
+        <button type="submit order">Submit order</button>
+        </form>
+    </body>
+    </html>

@@ -1,0 +1,126 @@
+body, html{
+	margin: 0px;
+	font-family: sans-serif;
+	background-color: #eee;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	margin: 0px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background-color: #e91e63;
+}
+#return{
+	position: fixed;
+	float: left;
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	border: none;
+	background-color: #448aff;
+	transition: ease-in-out 0.2s all;
+	cursor: pointer;
+	box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.4);
+	color: #448aff;
+	opacity: 0.8;
+	border-right: solid 1px #f5f5f5;
+	border-left: solid 1px #f5f5f5;
+}
+#return:hover{
+	color: #ffffff;
+	border-radius: 0px;
+}
+#subheader{
+	width: 100%;
+	height: 150px;
+	background-color: rgba(0,0,0,0.4);
+}
+#title{
+	width: 100%;
+	height: 80px;
+	font-size: 36pt;
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+	margin-bottom: -15px;
+}
+nav{
+	position: relative;
+	z-index: 10;
+}
+#line{
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+	top: 25px;
+	left: 0px;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+ul{
+	text-align: center;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	position: relative;
+	display: inline;
+}
+.nav-button{
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	border: none;
+	background-color: #c2185b;
+	color: #FFFFFF;
+	transition: ease-in-out 0.2s all;
+	cursor: pointer;
+	box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.4);
+}
+.nav-button:hover{
+	background-color: #448aff;
+}
+section{
+	padding-top: 150px;
+	width: 100%;
+	min-height: 600px;
+	margin: 0px;
+}
+.content-box{
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	padding: 20px;
+	width: 60%;
+	margin: 10px auto;
+}
+#one{
+	border-top: solid 10px #ff5252;
+}
+#two{
+	border-top: solid 10px #0288d1;
+}
+#three{
+	border-top: solid 10px #388e3c;
+}
+#four{
+	border-top: solid 10px #ff9800;
+}
+p{
+	text-indent: 30px;	
+}
+footer{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f8bbd0;
+	text-align: center;
+	font-size: 10pt;
+	padding: 10px 0px;
+	color: #727272;
+}
+
