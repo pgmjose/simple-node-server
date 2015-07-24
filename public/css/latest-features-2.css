@@ -1,0 +1,129 @@
+.whole {
+    width: 980px; 
+	height: ;
+	margin: auto;
+	margin-top:40px;
+	background-color: #cbe5ff;
+	padding-top:40px;
+    padding-bottom:40px;
+    background: linear-gradient(to top, #84befe, white); 
+}
+.box {
+    background-color:white;
+    width:200px;
+    height:200px;
+    position:absolute;
+    margin-left:40px;
+    margin-top:40px;
+    box-shadow: 5px 5px 10px gray;
+}
+.preview {
+	width: 530px; 
+	height: 360px;
+    margin-left:210px;
+    
+	background-color: #84befe; 
+	text-shadow: 5px 5px 10px gray;
+	font-size:90px;
+	color:white;
+	padding-top:100px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.nav {
+    width:900px;
+    background-color:white;
+    margin-left:40px;
+    margin-top:10px;
+}
+.nav a {
+    float:left;
+	width:158px;
+	text-decoration:none;
+	color:white;
+	background-color:#84befe;
+	padding: 10px;
+	border:1px solid white;
+	text-align:center;
+	border-radius:0px 15px 0px 0px;
+}
+.nav a:hover {
+    float:left;
+	width:158px;
+	text-decoration:none;
+	color:#84befe;
+	background-color:white;
+	padding: 10px;
+	border:1px solid white;
+	text-align:center;
+}
+.mid {
+    background-color:white;
+    width:900px;
+    height:360px;
+    margin-left:40px;
+}
+.last {
+    background-color:white;
+    width:900px;
+    height:180px;
+    margin-left:40px;
+    margin-top:10px;
+}
+.left {
+    border-style:dotted;
+    border-color:#cbe5ff;
+    background-color:white;
+    width:436px;
+    height:165px;
+    margin-top:5px;
+    margin-left:5px;
+    float:left;
+}
+.right {
+    border-style:dotted;
+    border-color:#cbe5ff;
+    background-color:white;
+    width:436px;
+    height:165px;
+    margin-top:5px;
+    margin-left:5px;
+    float:left;
+}
+.left-head, .right-head {
+    background-color:#84befe;
+    width:415px;
+    height:50px;
+    margin-left:5px;
+    margin-top:5px;
+    font-size:30px;
+    border-radius:0px 0px 20px 20px;
+    background: linear-gradient(to top, #84befe, lightblue); 
+    color:white;
+    padding-top:10px;
+    padding-left:10px;
+}
+.rect {
+    border-style:dashed;
+    border-color:#cbe5ff;
+    top:200px;
+    right:-5px;
+    position:fixed;
+    width:30px;
+    height:90px;
+    padding:30px 10px;
+    border-radius: 10px;
+}
+.rect a {
+    color:#84befe;
+    text-decoration:none;
+}
+body {
+    font-family: "Comfortaa", cursive;
+}
+.footer {
+    text-align:right;
+    color:white;
+    padding-top:10px;
+    margin-right:40px;
+}
